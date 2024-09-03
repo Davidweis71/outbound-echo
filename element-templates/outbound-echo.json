@@ -2,7 +2,7 @@
   "$schema" : "https://unpkg.com/@camunda/zeebe-element-templates-json-schema/resources/schema.json",
   "name" : "Template connector",
   "id" : "io.camunda.connector.Template.v1",
-  "description" : "Describe this connector",
+  "description" : "Echo entered value unless it is FAIL",
   "documentationRef" : "https://docs.camunda.io/docs/components/connectors/out-of-the-box-connectors/available-connectors-overview/",
   "version" : 1,
   "category" : {
