@@ -26,9 +26,9 @@ import org.slf4j.LoggerFactory;
       @ElementTemplate.PropertyGroup(id = "compose", label = "Compose")
     },
     inputDataClass = MyConnectorRequest.class)
-public class MyConnectorFunction implements OutboundConnectorFunction {
+public class MyConnectorEchoFunction implements OutboundConnectorFunction {
 
-  private static final Logger LOGGER = LoggerFactory.getLogger(MyConnectorFunction.class);
+  private static final Logger LOGGER = LoggerFactory.getLogger(MyConnectorEchoFunction.class);
 
   @Override
   public Object execute(OutboundConnectorContext context) {
